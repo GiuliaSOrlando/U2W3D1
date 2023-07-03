@@ -58,7 +58,7 @@ const renderList = () => {
   petsList.innerHTML = ""
   pets.forEach((pet) => {
     const newLi = document.createElement("li")
-    newLi.innerText = `${pet.petName} ${pet.ownerName} ${pet.species} ${pet.breeds}`
+    newLi.innerText = `Nome dell'animale domestico: ${pet.petName} \n Nome del proprietario: ${pet.ownerName} \n Specie: ${pet.species} \n Razza: ${pet.breeds}`
     petsList.appendChild(newLi)
   })
 }
