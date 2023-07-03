@@ -53,6 +53,10 @@ class Pet {
         }
       }
     }
+    let sameOwner = this.sameOwner(...pets)
+    if (sameOwner === true) {
+      alert("il proprietario è lo stesso")
+    }
   }
 }
 
