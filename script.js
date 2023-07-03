@@ -56,7 +56,7 @@ class Pet {
     let sameOwner = this.sameOwner(...pets)
     if (sameOwner === true) {
       alert(
-        `Il proprietario di ${this.petName} è lo stesso dell'ultimo animale domestico inserito`
+        `Il proprietario di ${this.petName} è lo stesso di uno degli animali presenti nel sistema`
       )
     }
   }
