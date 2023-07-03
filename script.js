@@ -29,7 +29,7 @@ const u1 = new User("Giulia", "Orlando", 30, "Torino", "female")
 const u2 = new User("Gabriele", "Orlando", 34, "Torino", "male")
 const u3 = new User("Giorgia", "Lorusso", 31, "Torino", "female")
 const u4 = new User("Giacomo", "Lorusso", 30, "Torino", "male")
-console.log(u3.ageComparison(u1, u2, u4))
+u3.ageComparison(u1, u2, u4)
 
 //Esercizio 2
 
